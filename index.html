@@ -1,147 +1,104 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vedhanth Yadav Y | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedhanth Yadav Y | Portfolio</title>
 
-```
 <link rel="stylesheet" href="style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-```
 
 </head>
 
 <body>
 
-<!-- HEADER -->
-
 <header>
-    <div class="container">
-        <h1>Vedhanth Yadav Y</h1>
-        <p class="tagline">Aspiring Web Developer & Data Analyst</p>
+  <div class="container">
+    <h1>Vedhanth Yadav Y</h1>
+    <p class="tagline">Aspiring Web Developer & Data Analyst</p>
 
-```
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
-    <p class="highlight">🚀 Available for Internship (Immediate)</p>
-</div>
-```
-
+    <button class="toggle-btn" onclick="toggleDark()">🌙</button>
+    <p class="highlight">🚀 Available for Internship</p>
+  </div>
 </header>
 
-<!-- ABOUT -->
-
 <section id="about">
-    <div class="container">
-        <h2>About Me</h2>
-
-```
-    <p>
-        I am Vedhanth, a BSc student specializing in Computer Science, Statistics, and Mathematics.
-        I am currently building my skills in web development and data analysis.
-    </p>
-
-    <p>
-        I have hands-on knowledge of HTML, CSS, SQL, Python, and Excel. 
-        I enjoy solving problems, learning new technologies, and applying concepts through practical projects.
-    </p>
-
-    <p>
-        I am actively looking for internship opportunities where I can contribute, learn, and grow in a real-world environment.
-    </p>
-</div>
-```
-
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I am Vedhanth, a BSc student in Computer Science, Statistics, and Mathematics.</p>
+    <p>I build projects using HTML, CSS, SQL, Python, and Excel.</p>
+    <p>Focused on practical learning, consistency, and real-world problem solving.</p>
+  </div>
 </section>
-
-<!-- SKILLS -->
 
 <section id="skills">
-    <div class="container">
-        <h2>Skills</h2>
-
-```
-    <ul class="skills-list">
-        <li><strong>Languages:</strong> Python, SQL</li>
-        <li><strong>Web:</strong> HTML, CSS</li>
-        <li><strong>Tools:</strong> Excel</li>
-        <li><strong>Concepts:</strong> Statistics, Basic Programming, Mathematics</li>
-    </ul>
-</div>
-```
-
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Excel</span>
+      <span>Statistics</span>
+    </div>
+  </div>
 </section>
-
-<!-- PROJECTS -->
 
 <section id="projects">
-    <div class="container">
-        <h2>Projects</h2>
+  <div class="container">
+    <h2>Projects</h2>
 
-```
-<div class="project">
-  <h3>Student Performance Analysis System</h3>
-  <p class="projectspace">
-    Built a complete data analysis system using Python, SQL, and Excel.
-    Analyzed student performance to identify top performers, study habits,
-    and performance distribution. Created an interactive dashboard to visualize insights.
-  </p>
-  <a class="viewproject" href="https://github.com/Vedhanth07/student-performance-analysis" target="_blank">
-    View Project
-  </a>
-</div>
+    <div class="project">
+      <h3>Student Performance Analysis System</h3>
+      <p>Analyzed student data using Python, SQL, and Excel to generate insights and dashboards.</p>
+      <a href="https://github.com/Vedhanth07/student-performance-analysis" target="_blank">View Project</a>
+    </div>
 
-<div class="project">
-  <h3>Portfolio Website</h3>
-  <p class="projectspace">
-    Designed and developed a personal portfolio website using HTML and CSS to showcase projects and skills.
-  </p>
-</div>
-</div>
-```
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio built using HTML & CSS showcasing projects and skills.</p>
+    </div>
 
+  </div>
 </section>
-<!-- CONTACT -->
 
 <section id="contact">
-    <div class="container">
-        <h2>Contact</h2>
-
-```
-    <p>Feel free to reach out to me for internship opportunities or collaborations.</p>
+  <div class="container">
+    <h2>Contact</h2>
 
     <form>
-        <input type="text" name="name" placeholder="Full Name" required>
-        <input type="email" name="email" placeholder="Email Address" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
     </form>
 
-    <div class="contact-links">
-        <p>Email: <a href="mailto:vedhaanthvedhaanth1@gmail.com">vedhaanthvedhaanth1@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-        <p>LinkedIn: <a href="#" target="_blank">Add your LinkedIn</a></p>
+    <div class="links">
+      <p>Email: <a href="mailto:vedhaanthvedhaanth1@gmail.com">vedhaanthvedhaanth1@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Vedhanth07" target="_blank">github.com/Vedhanth07</a></p>
     </div>
-</div>
-```
-
+  </div>
 </section>
 
-<!-- FOOTER -->
-
 <footer>
-    <p>© 2026 Vedhanth</p>
+  <p>© 2026 Vedhanth</p>
 </footer>
+
+<script>
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+</script>
 
 </body>
 </html>
